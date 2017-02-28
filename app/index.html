@@ -13,127 +13,145 @@
 	<link rel="stylesheet" href="fonts/montserrat-regular/stylesheet.css">
 	<link rel="stylesheet" href="fonts/montserrat-semiblod/stylesheet.css">
 	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="fonts/ico/stylesheet.css">
 
-	<link rel="stylesheet" href="css/main.css" media="screen">
+	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
+
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <div class="l-wrapper">
-	<header class="b-header">
-		<div class="b-logo">
-			<a href="#" class="b-logo__link"><span>Na</span>gorno.</a>
+	<header class="b-header clearfix">
+		<div class="l-center">
+			<article class="b-top-header clearfix">
+				<div class="b-logo">
+					<a href="#" class="b-logo__link"><span>Na</span>gorno.</a>
+				</div>
+				<!-- b-header -->
+				<nav class="b-header-menu">
+					<ul class="b-header-menu__list">
+						<li class="b-header-menu__item"><a href="" class="b-header-menu__link">Home.</a></li>
+						<li class="b-header-menu__item"><a href="" class="b-header-menu__link">Pages.</a></li>
+						<li class="b-header-menu__item"><a href="" class="b-header-menu__link">Portfolio.</a></li>
+						<li class="b-header-menu__item"><a href="" class="b-header-menu__link">Blog.</a></li>
+						<li class="b-header-menu__item"><a href="" class="b-header-menu__link">Contacts.</a></li>
+					</ul>
+				</nav>
+			<!-- b-header-menu -->
+			</article>
+			<!-- b-top-header -->
+			<article class="b-mid-header">
+				<h2 class="b-header__head">Your story begins from here.</h2>
+				<div class="b-header__desc">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+	ever since the 1500s</p>
+				</div>
+				<button class="b-btn-circle b-header__btn">Learm more</button>
+			</article>
+			<!-- b-mid-header -->
 		</div>
-		<!-- b-header -->
-		<nav class="b-header-menu">
-			<ul class="b-header-menu__list">
-				<li class="b-header-menu__item"><a href="" class="b-header-menu__link">Home.</a></li>
-				<li class="b-header-menu__item"><a href="" class="b-header-menu__link">Pages.</a></li>
-				<li class="b-header-menu__item"><a href="" class="b-header-menu__link">Portfolio.</a></li>
-				<li class="b-header-menu__item"><a href="" class="b-header-menu__link">Blog.</a></li>
-				<li class="b-header-menu__item"><a href="" class="b-header-menu__link">Contacts.</a></li>
-			</ul>
-		</nav>
-		<!-- b-header-menu -->
-		<div class="b-mid-header">
-			<h2 class="b-header__head">Your story begins from here.</h2>
-			<div class="b-header__desc">
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
-ever since the 1500s</p>
-			</div>
-			<button class="b-header__btn">Learm more</button>
-		</div>
-		<!-- b-mid-header -->
 	</header>
 	<!-- b-header -->
-	<section class="b-post">
-		<h2 class="b-post__head">Real-time all the time</h2>
-		<div class="b-post_desc">
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-			<p>dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen</p>
+	<section class="b-post clearfix">
+		<div class="l-center">
+			<article class="b-post__text">
+				<h2 class="b-post__head">Real-time all the time</h2>
+				<div class="b-post_desc">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+					<p>dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen</p>
+				</div>
+				<img src="pic/iPad.png" alt="notebook" class="b-post__img">
+			</article>
+			<!-- b-post__text -->
+			
 		</div>
-		<img src="" alt="notebook" class="b-post__img">
 	</section>
 	<!-- b-post -->
-	<section class="b-services">
-		<h2 class="b-services__head">Oure Services</h2>
-		<div class="b-services__desc">
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+	<section class="b-services clearfix">
+		<div class="l-center">
+			<h2 class="b-services__head">Oure Services</h2>
+			<div class="b-services__desc">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+			</div>
+			<ul class="b-services__list">
+				<li class="b-services__ltem b-services__ltem_g">
+					<h3 class="b-serv-option__head">branding</h3>
+					<div class="b-serv-option__desc">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+					</div>
+				</li>
+				<li class="b-services__ltem b-services__ltem_i">
+					<h3 class="b-serv-option__head">design</h3>
+					<div class="b-serv-option__desc">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+					</div>
+				</li>
+				<li class="b-services__ltem b-services__ltem_a">
+					<h3 class="b-serv-option__head">Development</h3>
+					<div class="b-serv-option__desc">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+					</div>
+				</li>
+				<li class="b-services__ltem b-services__ltem_b">
+					<h3 class="b-serv-option__head">Photography</h3>
+					<div class="b-serv-option__desc">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+					</div>
+				</li>
+				<li class="b-services__ltem b-services__ltem_d">
+					<h3 class="b-serv-option__head">Support</h3>
+					<div class="b-serv-option__desc">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+					</div>
+				</li>
+				<li class="b-services__ltem b-services__ltem_e">
+					<h3 class="b-serv-option__head">marketing</h3>
+					<div class="b-serv-option__desc">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+					</div>
+				</li>
+				<li class="b-services__ltem b-services__ltem_f">
+					<h3 class="b-serv-option__head">Ecommerce</h3>
+					<div class="b-serv-option__desc">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+					</div>
+				</li>
+				<li class="b-services__ltem b-services__ltem_c">
+					<h3 class="b-serv-option__head">coding</h3>
+					<div class="b-serv-option__desc">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+					</div>
+				</li>
+			</ul>
 		</div>
-		<ul class="b-services__list">
-			<li class="b-services__ltem">
-				<h3 class="b-serv-option__head">branding</h3>
-				<div class="b-serv-option__desc">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-				</div>
-			</li>
-			<li class="b-services__ltem">
-				<h3 class="b-serv-option__head">design</h3>
-				<div class="b-serv-option__desc">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-				</div>
-			</li>
-			<li class="b-services__ltem">
-				<h3 class="b-serv-option__head">Development</h3>
-				<div class="b-serv-option__desc">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-				</div>
-			</li>
-			<li class="b-services__ltem">
-				<h3 class="b-serv-option__head">Photography</h3>
-				<div class="b-serv-option__desc">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-				</div>
-			</li>
-			<li class="b-services__ltem">
-				<h3 class="b-serv-option__head">Support</h3>
-				<div class="b-serv-option__desc">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-				</div>
-			</li>
-			<li class="b-services__ltem">
-				<h3 class="b-serv-option__head">marketing</h3>
-				<div class="b-serv-option__desc">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-				</div>
-			</li>
-			<li class="b-services__ltem">
-				<h3 class="b-serv-option__head">Ecommerce</h3>
-				<div class="b-serv-option__desc">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-				</div>
-			</li>
-			<li class="b-services__ltem">
-				<h3 class="b-serv-option__head">coding</h3>
-				<div class="b-serv-option__desc">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-				</div>
-			</li>
-		</ul>
 	</section>
 	<!-- b-services -->
-	<section class="b-responsive">
-		<h2 class="b-responsive__hed">Responsive Web Design</h2>
-		<div class="b-responsive__desc">
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+	<section class="b-responsive clearfix">
+		<div class="l-center_c">
+			<h2 class="b-responsive__head">Responsive Web Design</h2>
+			<div class="b-responsive__desc">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+			</div>
+			<button class="b-btn-circle b-responsive__btn">Learn more</button>
+			<ul class="b-responsive__list">
+				<li class="b-responsive__item">
+					<div class="b-responsive__count">377<span>.</span></div>
+					<div class="b-responsive__name">Cofee Cups</div>
+				</li>
+				<li class="b-responsive__item">
+					<div class="b-responsive__count">1507<span>.</span></div>
+					<div class="b-responsive__name">Projects completed</div>
+				</li>
+				<li class="b-responsive__item">
+					<div class="b-responsive__count">455<span>.</span></div>
+					<div class="b-responsive__name">Happy Clients</div>
+				</li>
+				<li class="b-responsive__item">
+					<div class="b-responsive__count">678<span>.</span></div>
+					<div class="b-responsive__name">Average Deal</div>
+				</li>
+			</ul>
 		</div>
-		<button class="b-responsive__btn">Learn more</button>
-		<ul class="b-responsive__list">
-			<li class="b-responsive__item">
-				<div class="b-responsive__count">377<span>.</span></div>
-				<div class="b-responsive__name">Cofee Cups</div>
-			</li>
-			<li class="b-responsive__item">
-				<div class="b-responsive__count">1507<span>.</span></div>
-				<div class="b-responsive__name">Projects completed</div>
-			</li>
-			<li class="b-responsive__item">
-				<div class="b-responsive__count">455<span>.</span></div>
-				<div class="b-responsive__name">Happy Clients</div>
-			</li>
-			<li class="b-responsive__item">
-				<div class="b-responsive__count">678<span>.</span></div>
-				<div class="b-responsive__name">Average Deal</div>
-			</li>
-		</ul>
 	</section>
 	<!-- b-responsive -->
 	<section class="b-work">

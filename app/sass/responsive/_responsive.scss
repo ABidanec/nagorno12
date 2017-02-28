@@ -1,0 +1,34 @@
+@import "var_responsive";
+
+.b-responsive{
+	background: $bg-color-responsive url($bg-img-responsive) no-repeat top center;
+	background-size: cover;
+	padding: 15.93em 0 9.18em 0;
+}
+
+.b-responsive__head{
+	position: relative;
+	font-family: $f-mont-reg;
+	font-size: $head-size;
+	text-align: center;
+	color: #fff;
+	margin: 0 0 1em 0;
+}
+
+.b-responsive__desc{
+	text-align: center;
+	color: $color-t-desc;
+	font-style: italic;
+	margin: 0 0 5.315em 0;
+}
+
+.b-responsive__btn{
+	background: $bg-button;
+	color: $color-text-button;
+	margin: 0 auto;
+
+	&:hover{
+		background: $color-text-button;
+		color: $bg-button;
+	}
+}

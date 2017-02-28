@@ -12,5 +12,8 @@
     "app/bower",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "normalize-css": "normalize.css#^5.0.0"
+  }
 }

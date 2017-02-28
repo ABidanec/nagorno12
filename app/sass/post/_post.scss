@@ -1,0 +1,45 @@
+@import "var_post";
+
+.b-post{
+	padding: 8.312em 0 10.187em 0;
+	
+}
+
+.b-post__text{
+	position: relative;
+	width: $b-post-width;
+	border: 2px solid $b-post-border-color;
+	padding: 4.375em 2.5em;
+
+	&:before{
+		content: "i";
+		font-family: $f-ico;
+		font-size: 6em;
+		font-weight: 100;
+		color: $b-post-border-color;
+		position: absolute;
+		top: -7.7%;
+		left: 10%;
+	}
+}
+
+.b-post__head{
+	font-family: $f-mont-reg;
+	font-size: 1.875em;
+	text-transform: uppercase;
+	width: 30%;
+}
+
+.b-post_desc{
+	p{
+		color: $font-desc-color;
+		margin: 0 0 2.5em 0;
+		width: 50%;
+	}
+}
+
+.b-post__img{
+	position: absolute;
+	top: 7%;
+	right: -35%;
+}

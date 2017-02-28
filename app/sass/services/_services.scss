@@ -1,0 +1,105 @@
+@import "var_services";
+
+.b-services{
+	background: $bg_services;
+	padding: 6.25em 0 9.375em;
+}
+
+.b-services__head{
+	position: relative;
+	font-family: $f-mont-reg;
+	font-size: $head-size;
+	text-align: center;
+	margin: 0 0 $head-size 0;
+
+	&:after{
+		content: "";
+		position: absolute;
+		bottom: -150%;
+		left: 50%;
+		border: 2px solid $color-after-head;
+		width: 2em;
+		margin: 0 0 0 -1em;
+	}
+}
+
+.b-services__desc{
+	text-align: center;
+	color: $color-t-desc;
+	font-style: italic;
+	margin: 0 0 5.315em 0;
+}
+
+.b-services__ltem{
+	position: relative;
+	float: left;
+	width: 21%;
+	margin: 0 2% 5% 2%;;
+	padding: 5.937em 0 0;
+	text-align: center;
+}
+
+.b-services__ltem_a,
+.b-services__ltem_b,
+.b-services__ltem_c,
+.b-services__ltem_d,
+.b-services__ltem_e,
+.b-services__ltem_f,
+.b-services__ltem_g,
+.b-services__ltem_i{
+	&:before{
+		position: absolute;
+		top: 0;
+		left: 50%;
+		font-family: $f-ico;
+		font-weight: 100;
+		font-size: 6em;
+		color: $color-head;
+		margin: 0 0 0 -0.5em;
+	}
+	
+}
+
+.b-services__ltem_a:before{
+	content: "a";
+}
+
+.b-services__ltem_b:before{
+	content: "b";
+}
+
+.b-services__ltem_c:before{
+	content: "c";
+}
+
+.b-services__ltem_d:before{
+	content: "d";
+}
+
+.b-services__ltem_e:before{
+	content: "e";
+}
+
+.b-services__ltem_f:before{
+	content: "f";
+}
+
+.b-services__ltem_g:before{
+	content: "g";
+}
+
+.b-services__ltem_i:before{
+	content: "i";
+}
+
+.b-serv-option__head{
+	text-transform: uppercase;
+	margin: 0 0 1.625em;
+}
+
+.b-serv-option__desc{
+	p{
+		color: $color-t-desc;
+		font-size: 0.8125em;
+	}
+}

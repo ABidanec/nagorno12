@@ -1,0 +1,83 @@
+@import 'var_header';
+
+
+.b-header{
+	min-height: $height-header;
+	background: url('../../img/bg_header.jpg') top center no-repeat;
+	background-size: cover;
+	padding: $padding-top-header 0 0 0;
+}
+
+.b-top-header{
+	min-height: 1em;
+	margin: 0 0 23.325em 0;
+}
+
+.b-logo{
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+.b-logo__link{
+	font-family: $f-mont-lig;
+	font-size: 1em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: $color-text-t-header;
+
+	span{
+		font-family: $f-mont-sem;
+	}
+
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+.b-header-menu{
+	float: right;
+}
+
+.b-header-menu__item{
+	float: left;
+}
+
+.b-header-menu__link{
+	font-family: $f-mont-reg;
+	font-size: 1em;
+	text-decoration: none;
+	display: block;
+	padding: 0 1em;
+	color: $color-text-t-header;
+
+	&:hover{
+		text-decoration: underline;
+	}
+
+}
+
+.b-mid-header{
+	text-align: center;
+}
+
+.b-header__head{
+	font-family: $f-mont-reg;
+	font-size: $b-header__head-size;
+	margin: 0 0 0.7em 0;
+}
+
+.b-header__desc{
+	font-size: 1.25em;
+	width: 50%;
+	margin: 0 auto 4.06em;
+}
+
+.b-header__btn{
+	background: none;
+	border: 2px solid $color-text-t-header;
+	
+	&:hover{
+		background: $color-text-t-header;
+		color: #fff;
+	}
+}

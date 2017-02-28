@@ -1,0 +1,22 @@
+@import "var/var";
+@import "mixins/mixins";
+
+/*core*/
+@import "core/core";
+/*end core*/
+
+/*header*/
+@import "header/header";
+/*end header*/
+
+/*post*/
+@import "post/post";
+/*end post*/
+
+/*services*/
+@import "services/services";
+/*end services*/
+
+/*responsive*/
+@import "responsive/responsive";
+/*end responsive*/
