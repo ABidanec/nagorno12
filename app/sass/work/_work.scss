@@ -1,0 +1,87 @@
+@import "var_work";
+
+.b-work{
+	padding: 6.5em 0 10.5em 0;
+}
+
+.b-work__list{
+	font-size: 0;
+}
+
+.b-work__item{
+	position: relative;
+	float: left;
+	width: 25%;
+	margin: 0 0 2% 0;
+	font-size: 16px;
+
+	&:hover{
+		.b-work__desc{
+			opacity: 1;
+  			visibility: visible;
+			@include transition(1s);
+		}
+	}
+}
+
+.b-work__desc{
+	opacity: 0;
+  	visibility: hidden;
+  	@include transition(1s);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 50%;
+	background: rgba(255,255,255, .7);
+	padding: 0 0 0 10%;
+}
+
+.b-work__item-head{
+	font-family: $f-mont-reg;
+	font-size: 1em;
+	margin: 10% 20% 10% 10%;
+}
+
+.b-work__options{
+	margin: 0 0 0 10%;
+	color: $color-link-list-work;
+	font-size: $f-size-link;
+}
+
+.b-work__link{
+	text-decoration: none;
+	color: $color-link-list-work;
+	font-size: $f-size-link;
+
+	&:hover{
+		color: $color-button;
+	}
+}
+
+.b-work__btn{
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+	width: 2em;
+	height: 2em;
+	border: 1px solid $color-button;
+	@include border-radius(50%);
+	background: none;
+	color: $color-button;
+
+	&:after{
+		position: absolute;
+		top: 15%;
+		left: 24%;
+		content: "\f061";
+		font-family: $f-awersome;
+
+	}
+
+	&:hover{
+		border: 1px solid $color-link-list-work;
+		color: $color-link-list-work;
+	}
+
+
+}
