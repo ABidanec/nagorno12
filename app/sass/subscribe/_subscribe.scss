@@ -1,0 +1,57 @@
+@import "var_subscribe";
+
+.b-subscribe{
+	text-align: center;
+	padding: 2em 0 7.81em 0;
+}
+
+.b-subscribe__head{
+	@extend .b-services__head;
+	
+	margin: 0 0 1.23em 0;
+
+	&:after{
+		display: none;
+	}
+}
+
+.l-subscribe__form{
+	width: 49%;
+	height: $form-height;
+	margin: 0 auto;
+	border-color: $form-border-color;
+	text-align: left;
+	padding: 0.1% 0 0 0;
+
+	@include border-radius($form-height);
+}
+
+.b-subscribe__email{
+	height: $input-height;
+	width: 67%;
+	margin: 0 0 0 1em;
+	border: none;
+	font-style: normal;
+	color: $placeholder-color;
+	outline:none;
+
+	@include placeholder($placeholder-color);
+
+	@include border-radius($input-height);
+}
+
+.b-subscribe__submit{
+	height: $input-height;
+	width: 28%;
+	margin: 0 0 0 1%;
+	background: $submit-color;
+	color: #fff;
+	border: 1px solid $submit-color;
+
+	@include border-radius($input-height);
+
+	&:hover{
+		background: #fff;
+		color: $submit-color;
+	}
+}
