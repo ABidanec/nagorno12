@@ -30,4 +30,8 @@ gulp.task("watch", ['browser-sync'], function(){
 	gulp.watch('app/*.html', browserSync.reload);
 });
 
+// gulp.task('watch-html', 'browserSync', function(){
+//          gulp.watch("app/*.html").on("change", reload);
+// });
+
 gulp.task('default', ['watch']);

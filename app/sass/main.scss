@@ -5,30 +5,10 @@
 @import "core/core";
 /*end core*/
 
-/*header*/
-@import "header/header";
-/*end header*/
+/*index*/
+@import "index/index";
+/*end index*/
 
-/*post*/
-@import "post/post";
-/*end post*/
-
-/*services*/
-@import "services/services";
-/*end services*/
-
-/*responsive*/
-@import "responsive/responsive";
-/*end responsive*/
-
-/*work*/
-@import "work/work";
-/*end work*/
-
-/*subscribe*/
-@import "subscribe/subscribe";
-/*end subscribe*/
-
-/*footer*/
-@import "footer/footer";
-/*end footer*/
+/*blog*/
+@import "blog/blog";
+/*end blog*/

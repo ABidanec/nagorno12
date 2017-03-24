@@ -1,0 +1,63 @@
+@import "var_sidebar";
+
+.b-sidebar{
+	float: right;
+	width: 31.6%;
+}
+
+.b-sidebar__block{
+	margin: 0 0 $margin-b-block 0;
+}
+
+.b-bar__item{
+	margin: 0 0 $margin-b-item 0;
+}
+
+.b-bar__link{
+	display: block;
+	text-decoration: none;
+	color: $color-link-sidebar;
+
+	&:hover{
+		text-decoration: underline;
+	}
+
+	span{
+		float: right;
+	}
+}
+
+.b-sidebar__head{
+	@extend .b-footer__head;
+}
+
+.b-form-serach{
+	position: relative;
+}
+
+.b-form-serach fieldset{
+	@extend .l-subscribe__form;
+	width: 100%;
+}
+
+
+.b-form-serach__text{
+	position: absolute;
+	@extend .b-subscribe__email;
+	width: 82%;
+}
+
+.b-form-serach__submit{
+	content: "m";
+	font-family: $f-ico;
+	font-size: 1em;
+	position: absolute;
+	@extend .b-subscribe__submit;
+	width: 2.8em;
+	right: 0.5%;
+	top: 6%;
+	@include border-radius(50%);	
+	
+	
+}
+	
