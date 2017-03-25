@@ -1,0 +1,27 @@
+@import "var_b-contact";
+
+.b-contact{
+	float: right;
+	width: $width-contact;
+}
+
+.b-contacts__item{
+	display: inline-block;
+	vertical-align: top;
+	width: $width-contacts__item;
+	color: $color-text-contact;
+}
+
+.b-contacts__name,
+.b-contacts__link{
+	color: $color-text-contact;
+
+}
+
+.b-contacts__link{
+	text-decoration: none;
+
+	&:hover{
+		text-decoration: underline;
+	}
+}

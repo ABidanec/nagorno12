@@ -1,0 +1,16 @@
+@import "var_contact-header";
+
+.b-header-con{
+	min-height: $height-header-contact;
+	margin: 0 0 $margin-bottom-header-contact 0;
+	padding: $padding-top-header 0 0 0;
+	background: url($bg-head-contact);
+}
+
+.b-header-con__top{
+	@extend .b-header-bl__top;
+}
+
+.b-header-con__md{
+	@extend .b-header-bl__md;
+}

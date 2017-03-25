@@ -1,0 +1,62 @@
+@import "var_message";
+
+.b-message{
+	width: $width-message;
+	margin: 0 0 $margin-b-message 0;
+}
+
+.b-contact__head{
+	@extend .b-sidebar__head;
+}
+
+.b-contact-form{
+	fieldset{
+		border: none;
+	}
+
+}
+
+.b-contact-form__label{
+	display: block;
+	float: left;
+	width: 50%;
+	margin: 0 0 $margin-b-contact-form__label 0;
+
+	p{
+		padding: 0 0 0 1em;
+	}
+}
+
+.b-contact-form__input{
+	width: 90%;
+	padding: 3%;
+	border: none;
+	height: $height-contact-form__input;
+	background: $color-contact-form__input;
+	@include border-radius(1.5em);
+}
+
+.b-contact-form__input[type="email"]{
+	float: right;
+}
+
+.b-contact-form__label_ta{
+	text-align: left;
+	
+	p{
+		padding: 0 0 0 1em;
+	}
+}
+
+.b-contact-form__textarea{
+	@extend .b-contact-form__input;
+	width: 94%;
+	height: 8.43em;
+	margin: 0 0 $margin-b-contact-form__label 0;
+}
+
+.b-contact-form__submit{
+	@extend .b-subscribe__submit;
+	text-align: center;
+
+}

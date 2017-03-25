@@ -1,0 +1,8 @@
+@import "var_map";
+
+.b-map{
+	min-height: $height-map;
+	background: url($bg-map);
+	background-size: cover;
+	
+}
