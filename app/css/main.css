@@ -598,18 +598,18 @@ textarea {
   padding: 3.75em 0 0 0;
   margin: 0 0 6.75em 0; }
 
-.b-header-bl__top .b-logo__link, .b-header-con__top .b-logo__link, .b-header-bl__top .b-header-menu__link, .b-header-con__top .b-header-menu__link {
+.b-header-bl__top .b-logo__link, .b-header-con__top .b-logo__link, .b-header-port__top .b-logo__link, .b-header-bl__top .b-header-menu__link, .b-header-con__top .b-header-menu__link, .b-header-port__top .b-header-menu__link {
   color: #fff; }
-  .b-header-bl__top .b-logo__link:hover, .b-header-con__top .b-logo__link:hover, .b-header-bl__top .b-header-menu__link:hover, .b-header-con__top .b-header-menu__link:hover {
+  .b-header-bl__top .b-logo__link:hover, .b-header-con__top .b-logo__link:hover, .b-header-port__top .b-logo__link:hover, .b-header-bl__top .b-header-menu__link:hover, .b-header-con__top .b-header-menu__link:hover, .b-header-port__top .b-header-menu__link:hover {
     color: #6fc754; }
 
-.b-header-bl__md, .b-header-con__md {
+.b-header-bl__md, .b-header-con__md, .b-header-port__md {
   padding: 6.25em 0 0 0;
   text-align: center; }
-  .b-header-bl__md .b-header__head, .b-header-con__md .b-header__head {
+  .b-header-bl__md .b-header__head, .b-header-con__md .b-header__head, .b-header-port__md .b-header__head {
     color: #fff;
     margin: 0 0 0.5em 0; }
-    .b-header-bl__md .b-header__head:after, .b-header-con__md .b-header__head:after {
+    .b-header-bl__md .b-header__head:after, .b-header-con__md .b-header__head:after, .b-header-port__md .b-header__head:after {
       content: "";
       display: block;
       width: 1.3em;
@@ -746,7 +746,8 @@ textarea {
   min-height: 21.25em;
   margin: 0 0 6.75em 0;
   padding: 3.75em 0 0 0;
-  background: url("../../../img/bg_header-contact.jpg"); }
+  background: url("../../../img/bg_header-contact.jpg");
+  background-size: cover; }
 
 .b-message {
   width: 60%;
@@ -815,3 +816,34 @@ textarea {
   background-size: cover; }
 
 /*end contact*/
+/*portfolio*/
+.b-header-port {
+  background: url("../../../img/bg-header-portfolio.jpg");
+  background-size: cover;
+  min-height: 21.25em;
+  padding: 3.75em 0 0 0;
+  margin: 0 0 6.75em 0; }
+
+.b-type {
+  text-align: center;
+  margin: 0 0 3.875em 0; }
+
+.b-type__item {
+  display: inline-block; }
+
+.b-type__link {
+  display: block;
+  padding: 1em 2em;
+  margin: 0 1em;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  border-radius: 2em;
+  text-decoration: none;
+  background: #f5f5f8;
+  color: #26272d; }
+  .b-type__link:hover {
+    background: #6fc754;
+    color: #fff; }
+
+/*end portfolio*/

@@ -1,0 +1,25 @@
+@import "var_type";
+
+.b-type{
+	text-align: center;
+	margin: 0 0 $margin-b-type 0;
+}
+
+.b-type__item{
+	display: inline-block;
+}
+
+.b-type__link{
+	display: block;
+	padding: 1em 2em;
+	margin: 0 1em;
+	@include border-radius(2em);
+	text-decoration: none;
+	background: $bg-button;
+	color: $color-button;
+
+	&:hover{
+		background: $bg-button-hover;
+		color: $color-button-hover;
+	}
+}

@@ -1,0 +1,17 @@
+@import "var_head-portfolio";
+
+.b-header-port{
+	background: url($bg-head-portfolio);
+	background-size: cover;
+	min-height: $height-head-prtfolio;
+	padding: $padding-top-header 0 0 0;
+	margin: 0 0 $margin-bottom-header-portfolio 0;
+}
+
+.b-header-port__top{
+	@extend .b-header-con__top;
+}
+
+.b-header-port__md{
+	@extend .b-header-con__md;
+}
