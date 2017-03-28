@@ -1,0 +1,10 @@
+$margin-b-b-project__content: 4.375em;
+
+.b-project__content{
+	margin: 0 0 $margin-b-b-project__content 0;
+}
+
+@import "b-project__description/b-project__description";
+
+@import "b-project__works/b-project__works";
+

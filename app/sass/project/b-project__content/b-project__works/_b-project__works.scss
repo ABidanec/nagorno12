@@ -1,0 +1,14 @@
+@import "var_b-project__works";
+
+.b-project__works{
+	@extend .b-message;
+}
+
+.b-project__item{
+	width: 100%;
+	margin: 0 0 $margin-b-b-project__item 0;
+}
+
+.b-project__img{
+	width: 100%;
+}

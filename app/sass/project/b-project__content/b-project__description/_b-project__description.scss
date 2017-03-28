@@ -1,0 +1,36 @@
+@import "var_b-project__description";
+
+.b-project__description{
+	@extend .b-contact;
+}
+
+.b-project-desc__head{
+	@extend .b-contact__head;
+}
+
+.b-project-desc__item{
+	display: none;
+	color: $color-description-text;
+	margin: 0 0 $margin-b-b-project-desc__item 0;
+
+	p{
+		margin: 0 0 $margin-b-paragraph 0;
+	}
+}
+
+.b-project-desc__item_display{
+	display: block;
+}
+
+.b-project-desc__date,
+.b-project-desc__category{
+	
+	margin: 0 0 $margin-b-date 0;
+
+	span{
+		text-transform: uppercase;
+		color: $color-date-text;
+		font-family: $f-mont-reg;
+	}
+}
+

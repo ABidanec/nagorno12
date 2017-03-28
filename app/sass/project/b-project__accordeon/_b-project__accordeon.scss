@@ -1,0 +1,15 @@
+@import "var_b-project__accordeon";
+
+.b-project__accordeon{
+	margin: 0 0 $margin-b-b-project__accordeon 0;
+}
+
+.b-project-acc__head{
+	@extend .b-project-desc__head;
+}
+
+.b-project-acc__item{
+	float: left;
+	width: $width-b-project-acc__item;
+	margin: 0 0 0 $margin-l-b-project-acc__item;
+}

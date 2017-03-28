@@ -461,11 +461,11 @@ textarea {
   width: 17%;
   margin: 0 0 0 8%; }
 
-.b-footer__head, .b-sidebar__head, .b-contact__head {
+.b-footer__head, .b-sidebar__head, .b-contact__head, .b-project-desc__head, .b-project-acc__head {
   text-transform: uppercase;
   font-family: "montserratregular";
   margin: 0 0 2.31em 0; }
-  .b-footer__head span, .b-sidebar__head span, .b-contact__head span {
+  .b-footer__head span, .b-sidebar__head span, .b-contact__head span, .b-project-desc__head span, .b-project-acc__head span {
     font-weight: 100; }
 
 .b-contact__item,
@@ -598,18 +598,18 @@ textarea {
   padding: 3.75em 0 0 0;
   margin: 0 0 6.75em 0; }
 
-.b-header-bl__top .b-logo__link, .b-header-con__top .b-logo__link, .b-header-port__top .b-logo__link, .b-header-bl__top .b-header-menu__link, .b-header-con__top .b-header-menu__link, .b-header-port__top .b-header-menu__link {
+.b-header-bl__top .b-logo__link, .b-header-con__top .b-logo__link, .b-header-port__top .b-logo__link, .b-header-proj__top .b-logo__link, .b-header-bl__top .b-header-menu__link, .b-header-con__top .b-header-menu__link, .b-header-port__top .b-header-menu__link, .b-header-proj__top .b-header-menu__link {
   color: #fff; }
-  .b-header-bl__top .b-logo__link:hover, .b-header-con__top .b-logo__link:hover, .b-header-port__top .b-logo__link:hover, .b-header-bl__top .b-header-menu__link:hover, .b-header-con__top .b-header-menu__link:hover, .b-header-port__top .b-header-menu__link:hover {
+  .b-header-bl__top .b-logo__link:hover, .b-header-con__top .b-logo__link:hover, .b-header-port__top .b-logo__link:hover, .b-header-proj__top .b-logo__link:hover, .b-header-bl__top .b-header-menu__link:hover, .b-header-con__top .b-header-menu__link:hover, .b-header-port__top .b-header-menu__link:hover, .b-header-proj__top .b-header-menu__link:hover {
     color: #6fc754; }
 
-.b-header-bl__md, .b-header-con__md, .b-header-port__md {
+.b-header-bl__md, .b-header-con__md, .b-header-port__md, .b-header-proj__md {
   padding: 6.25em 0 0 0;
   text-align: center; }
-  .b-header-bl__md .b-header__head, .b-header-con__md .b-header__head, .b-header-port__md .b-header__head {
+  .b-header-bl__md .b-header__head, .b-header-con__md .b-header__head, .b-header-port__md .b-header__head, .b-header-proj__md .b-header__head {
     color: #fff;
     margin: 0 0 0.5em 0; }
-    .b-header-bl__md .b-header__head:after, .b-header-con__md .b-header__head:after, .b-header-port__md .b-header__head:after {
+    .b-header-bl__md .b-header__head:after, .b-header-con__md .b-header__head:after, .b-header-port__md .b-header__head:after, .b-header-proj__md .b-header__head:after {
       content: "";
       display: block;
       width: 1.3em;
@@ -749,7 +749,7 @@ textarea {
   background: url("../../../img/bg_header-contact.jpg");
   background-size: cover; }
 
-.b-message {
+.b-message, .b-project__works {
   width: 60%;
   margin: 0 0 3.75em 0; }
 
@@ -791,7 +791,7 @@ textarea {
 .b-contact-form__submit {
   text-align: center; }
 
-.b-contact {
+.b-contact, .b-project__description {
   float: right;
   width: 34%; }
 
@@ -847,3 +847,49 @@ textarea {
     color: #fff; }
 
 /*end portfolio*/
+/*project*/
+.b-header-proj {
+  min-height: 21.25em;
+  background: url("../../../img/bg-header-project.jpg") no-repeat center top;
+  background-size: cover;
+  margin: 0 0 6.75em 0;
+  padding: 3.75em 0 0 0; }
+
+.b-project__content {
+  margin: 0 0 4.375em 0; }
+
+.b-project-desc__item {
+  display: none;
+  color: #8c8f94;
+  margin: 0 0 2em 0; }
+  .b-project-desc__item p {
+    margin: 0 0 3em 0; }
+
+.b-project-desc__item_display {
+  display: block; }
+
+.b-project-desc__date,
+.b-project-desc__category {
+  margin: 0 0 0.625em 0; }
+  .b-project-desc__date span,
+  .b-project-desc__category span {
+    text-transform: uppercase;
+    color: #26272d;
+    font-family: "montserratregular"; }
+
+.b-project__item {
+  width: 100%;
+  margin: 0 0 1.25em 0; }
+
+.b-project__img {
+  width: 100%; }
+
+.b-project__accordeon {
+  margin: 0 0 3.75em 0; }
+
+.b-project-acc__item {
+  float: left;
+  width: 23%;
+  margin: 0 0 0 2%; }
+
+/*end project*/

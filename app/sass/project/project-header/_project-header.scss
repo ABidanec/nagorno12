@@ -1,0 +1,17 @@
+@import "var_project-header";
+
+.b-header-proj{
+	min-height: $height-header-project;
+	background: url($bg-header-project) no-repeat center top;
+	background-size: cover;
+	margin: 0 0 $margin-b-header-project 0;
+	padding: $padding-t-header-project 0 0 0;
+}
+
+.b-header-proj__top{
+	@extend .b-header-bl__top;
+}
+
+.b-header-proj__md{
+	@extend .b-header-bl__md;
+}
