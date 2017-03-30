@@ -1,0 +1,76 @@
+@import "var_singleBlog-comment";
+
+.b-comments__item{
+	margin: 0 0 $margin-b-b-comments__item 0;
+	color: $color-text;
+}
+
+.b-comments__item_answer{
+	padding: 0 0 0 $width-ava;
+}
+
+.b-comments__head{
+	@extend .b-sidebar__head;
+	color: $color-head;
+}
+
+.b-comments__info,
+.b-comments__text{
+	padding: 0 0 0 $padding-l-info;
+}
+
+.b-comments__info{
+	background: $bg-info;
+}
+
+.b-comments__ava{
+	background: $bg-ava;
+	float: left;
+	width: $width-ava;
+	height: $height-ava;
+}
+
+.b-comments__info{
+	overflow: hidden;
+}
+
+.b-comments__author,
+.b-comments__date{
+	position: relative;
+	float: left;
+	padding: 1em 2em;
+}
+
+.b-comments__date{
+	&:before{
+		position: absolute;
+		left: -0.25em;
+		top: 1.05em;
+		content: "k";
+		font-size: 1.2em;
+		font-family: $f-ico;
+	}
+}
+
+.b-comments-forma{
+	margin: 0 0 
+}
+
+.b-comments-forma__form fieldset{
+	border: none;
+}
+
+.b-comments-forma__textarea,
+.b-comments-forma__name,
+.b-comments-forma__email{
+	border: 1px solid $color-border-input;
+	@include border-radius(1em);
+	@include placeholder($color-head);
+	width: 98%;
+	padding: 1em 0.5em;
+	margin: 0 0 0.5em 0;
+}
+
+.b-comments-forma__submit{
+	@extend .b-subscribe__submit;
+}

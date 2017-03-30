@@ -424,7 +424,7 @@ textarea {
   .b-subscribe__email :-ms-input-placeholder, .b-form-serach__text :-ms-input-placeholder {
     color: #67696b; }
 
-.b-subscribe__submit, .b-form-serach__submit, .b-contact-form__submit {
+.b-subscribe__submit, .b-form-serach__submit, .b-contact-form__submit, .b-comments-forma__submit {
   height: 2.8em;
   width: 28%;
   margin: 0 0 0 1%;
@@ -435,7 +435,7 @@ textarea {
   -moz-border-radius: 2.8em;
   -ms-border-radius: 2.8em;
   border-radius: 2.8em; }
-  .b-subscribe__submit:hover, .b-form-serach__submit:hover, .b-contact-form__submit:hover {
+  .b-subscribe__submit:hover, .b-form-serach__submit:hover, .b-contact-form__submit:hover, .b-comments-forma__submit:hover {
     background: #fff;
     color: #6fc754; }
 
@@ -461,11 +461,11 @@ textarea {
   width: 17%;
   margin: 0 0 0 8%; }
 
-.b-footer__head, .b-sidebar__head, .b-contact__head, .b-project-desc__head, .b-project-acc__head {
+.b-footer__head, .b-sidebar__head, .b-contact__head, .b-project-desc__head, .b-project-acc__head, .b-comments__head {
   text-transform: uppercase;
   font-family: "montserratregular";
   margin: 0 0 2.31em 0; }
-  .b-footer__head span, .b-sidebar__head span, .b-contact__head span, .b-project-desc__head span, .b-project-acc__head span {
+  .b-footer__head span, .b-sidebar__head span, .b-contact__head span, .b-project-desc__head span, .b-project-acc__head span, .b-comments__head span {
     font-weight: 100; }
 
 .b-contact__item,
@@ -893,3 +893,81 @@ textarea {
   margin: 0 0 0 2%; }
 
 /*end project*/
+/*singleBlog*/
+.b-comments__item {
+  margin: 0 0 2.68em 0;
+  color: #8c8f94; }
+
+.b-comments__item_answer {
+  padding: 0 0 0 4.75em; }
+
+.b-comments__head {
+  color: #26272d; }
+
+.b-comments__info,
+.b-comments__text {
+  padding: 0 0 0 6em; }
+
+.b-comments__info {
+  background: #f5f5f8; }
+
+.b-comments__ava {
+  background: #3c5a99;
+  float: left;
+  width: 4.75em;
+  height: 4.75em; }
+
+.b-comments__info {
+  overflow: hidden; }
+
+.b-comments__author,
+.b-comments__date {
+  position: relative;
+  float: left;
+  padding: 1em 2em; }
+
+.b-comments__date:before {
+  position: absolute;
+  left: -0.25em;
+  top: 1.05em;
+  content: "k";
+  font-size: 1.2em;
+  font-family: "ico"; }
+
+.b-comments-forma {
+  margin: 0 0; }
+
+.b-comments-forma__form fieldset {
+  border: none; }
+
+.b-comments-forma__textarea,
+.b-comments-forma__name,
+.b-comments-forma__email {
+  border: 1px solid #d4d4d5;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  border-radius: 1em;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+  width: 98%;
+  padding: 1em 0.5em;
+  margin: 0 0 0.5em 0; }
+  .b-comments-forma__textarea ::-webkit-input-placeholder,
+  .b-comments-forma__name ::-webkit-input-placeholder,
+  .b-comments-forma__email ::-webkit-input-placeholder {
+    color: #26272d; }
+  .b-comments-forma__textarea ::-moz-placeholder,
+  .b-comments-forma__name ::-moz-placeholder,
+  .b-comments-forma__email ::-moz-placeholder {
+    color: #26272d; }
+  .b-comments-forma__textarea :-moz-placeholder,
+  .b-comments-forma__name :-moz-placeholder,
+  .b-comments-forma__email :-moz-placeholder {
+    color: #26272d; }
+  .b-comments-forma__textarea :-ms-input-placeholder,
+  .b-comments-forma__name :-ms-input-placeholder,
+  .b-comments-forma__email :-ms-input-placeholder {
+    color: #26272d; }
+
+/*end singleBlog*/
